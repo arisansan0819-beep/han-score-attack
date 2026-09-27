@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>班スコアアタック</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+
+<body>
+
+    <h1>班スコアアタック</h1>
+
+
+    <!-- ========================= -->
+    <!-- スコアアタック部分 -->
+    <!-- ========================= -->
+
+    <div id="game">
+
+    <h2>スコアアタック</h2>
+
+    <p id="question">
+        スコアアタックを開始してください
+    </p>
+
+    <div class="score">
+
+        <div>
+            <span>タイム</span>
+            <strong id="time">0.00秒</strong>
+        </div>
+
+        <div>
+            <span>操作回数</span>
+            <strong id="moves">0回</strong>
+        </div>
+
+    </div>
+
+    <button
+        id="startButton"
+        onclick="startGame()">
+
+        スコアアタック開始
+
+    </button>
+
+    <p id="result"></p>
+
+</div>
+
+    <!-- ========================= -->
+    <!-- 班一覧 -->
+    <!-- ========================= -->
+
+    <div id="base">
+
+    </div>
+
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

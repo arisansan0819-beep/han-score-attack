@@ -1,0 +1,182 @@
+/* ========================================
+   ページ全体
+======================================== */
+
+body {
+
+    font-family: sans-serif;
+
+    background-color: #f5f5f5;
+
+    padding: 30px;
+
+}
+
+
+/* ========================================
+   タイトル
+======================================== */
+
+h1 {
+
+    text-align: center;
+
+}
+
+
+/* ========================================
+   スコアアタック
+======================================== */
+
+#game {
+
+    max-width: 600px;
+
+    margin: 0 auto 20px;
+
+    background-color: white;
+
+    padding: 20px;
+
+    border-radius: 12px;
+
+}
+
+
+#game h2 {
+
+    margin-top: 0;
+
+}
+
+
+.score {
+
+    display: flex;
+
+    gap: 20px;
+
+    margin: 20px 0;
+
+}
+
+
+.score div {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+
+.score span {
+
+    font-size: 13px;
+
+    color: #666;
+
+}
+
+
+.score strong {
+
+    font-size: 24px;
+
+}
+
+
+#startButton {
+
+    padding: 12px 20px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+}
+
+
+#result {
+
+    font-weight: bold;
+
+}
+
+
+/* ========================================
+   班一覧
+======================================== */
+
+#base {
+
+    max-width: 600px;
+
+    margin: 0 auto;
+
+}
+
+
+#base > div {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    background-color: white;
+
+    padding: 10px;
+
+    margin-bottom: 6px;
+
+    border-radius: 8px;
+
+}
+
+
+/* 順位 */
+
+#base > div span:first-child {
+
+    width: 45px;
+
+    font-weight: bold;
+
+}
+
+
+/* 班名 */
+
+#base > div span:nth-child(2) {
+
+    flex: 1;
+
+}
+
+
+/* ボタン */
+
+button {
+
+    font-size: 18px;
+
+    padding: 8px 12px;
+
+    cursor: pointer;
+
+}
+
+
+/* ========================================
+   ターゲットの班
+======================================== */
+
+#base > div.target {
+
+    background-color: #fff3cd;
+
+    border: 2px solid #f0ad00;
+
+}
